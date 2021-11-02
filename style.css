@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: url(/pexels-rodolfo-quirós-2330137.jpg) no-repeat;
+    background-size: cover;
+    
+    
+}
+.logo{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 40px;
+}
+.container{
+    padding-top: 90px;
+    margin-left: 150px;
+    width: 50%;
+}
+.container h1{
+    font-size: 55px;
+}
+.container .paragraph{
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 35px;
+    color: rgb(180, 126, 231);
+    opacity: .8;
+}
+
+.container .news-letter{
+    margin-top: 40px;
+    display: flex;
+}
+input[type=text]{
+    width: 50%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+    border: none; 
+}
+input[type=submit]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    background-color: rgb(146, 49, 236);
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-left: 20px;
+    
+}
+input[type=submit]:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+
+
+.container .content{
+    margin-top: 70px;
+    
+}
+.container .con-a p{
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 18px;
+    color: rgb(180, 126, 231);
+}
+
+.container .con-b h2{
+    margin-top: 40px;
+}
+.container .con-b p{
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 18px;
+    color: rgb(180, 126, 231);
+}
+
+.container .con-c h2{
+    margin-top: 40px;
+}
+
+.container .con-c p{
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 18px;
+    color: rgb(180, 126, 231);
+}
+
+
+.footer hr{
+    opacity: .3;
+    margin-top: 40px;
+    margin-right: 90x;
+    width: 150%;
+    
+}
+
+
+.footer .footerp{
+    margin-top: 60px;
+    color: rgb(180, 126, 231);
+    opacity: .4;
+
+}
+.footer .footerp a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.footer .icons{
+    word-spacing: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-bottom: 40px;
+    cursor: pointer;
+    
+    
+}
+
+@media screen and (max-width:600px){
+    body{
+        width: 100%;
+        
+        
+        
+    }
+    .container{
+        margin-left: 20px;
+        
+        
+    }
+    .container h1{
+        font-size: 40px;
+        margin-left: 20px;
+        width: 150%;
+        
+        
+    }
+    .container p{
+        margin-left: 20px;
+        width: 100%;
+        
+    }
+    .container .news-letter{
+        display: inline-table;
+        justify-content: center;
+        text-align: center;
+    }
+
+    input[type=text]{
+        margin-left: 20px;
+        width: 150%; 
+        text-align: center; 
+        
+             
+    }
+    input[type=submit]{
+        width: 150%;
+        
+    }
+
+    .container .content{
+        margin-left: 20px;
+    }
+    .container .content p{
+        margin-left: 5px;
+    }
+    .footer hr{
+        margin-left: 20px;
+        width: 45%%;
+    }
+    .footer .footerp{
+        margin-left: 100px;
+        text-align: center;
+        width: 100%;
+        line-height: 30px;
+    }
+    .footer .icons{
+        margin-top: 30px;
+        word-spacing: 25px;
+        margin-left: 120px;
+        
+        
+        
+        
+        
+        
+    }
+    
+}
